@@ -1,0 +1,42 @@
+{
+    "name": "enstack",
+    "version": "1.0.10",
+    "description": "Bootstrap an Encore booking application",
+    "main": "index.js",
+    "bin": {
+        "enstack": "./index.js"
+    },
+    "preferGlobal": false,
+    "files": [
+        "index.js",
+        "template/**/*",
+        ".npmrc"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "release": "npm publish",
+        "prepare": "node scripts/prepare.js"
+    },
+    "keywords": [
+        "encore",
+        "booking",
+        "bootstrap",
+        "template",
+        "create",
+        "init",
+        "generator"
+    ],
+    "author": "",
+    "license": "MIT",
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/enstack.git"
+    },
+    "bugs": {
+        "url": "https://github.com/yourusername/enstack/issues"
+    },
+    "homepage": "https://github.com/yourusername/enstack#readme"
+}

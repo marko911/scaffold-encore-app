@@ -1,0 +1,17 @@
+# Development files
+node_modules/
+.git/
+.DS_Store
+*.log
+*.tgz
+
+# Test directories
+asdk/
+test/
+
+# Scripts (not needed in the published package)
+scripts/
+
+# Other unnecessary files
+.vscode/
+.idea/ 
